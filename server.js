@@ -7,7 +7,7 @@ import { MongoClient } from "mongodb";
 // ---------- Config ----------
 const PORT = process.env.PORT || 8787;
 const PINECONE_ENDPOINT =
-  "https://prod-1-data.ke.pinecone.io/assistant/chat/brichat";
+  "https://prod-1-data.ke.pinecone.io/mcp/assistants/chat";
 const PINECONE_KEY = process.env.PINECONE_KEY; // required
 const MONGODB_URI = process.env.MONGODB_URI; // required
 
